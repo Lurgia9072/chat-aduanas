@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+
+body {
+  font-family: "Inconsolata", monospace;
+  background: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+  color: white;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 7vh;
+}
+
+h2 {
+  font-size: 4.5vh;
+}
+
+html, body, #app {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+#app, body, .app-container {
+ justify-content: center;
+ align-items: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding: 5vw 10vw 5vw 10vw;
+}
+
+.ChatContainer {
+  animation: fade 1s ease 1.5s both;
+  z-index: 20;
+  text-align: right;
+  flex: 1 0 20vw;
+  margin: 0 5vw 5vw 0;
+  background:#453a94 ;
+  margin-top: auto;
+  text-shadow: 1px 2px 0px rgba(#f43b47, 0.4), 3px 2px 0px rgba(#f43b47, 0.4), 2px 3px 0px rgba(#f43b47, 0.4);
+  position: relative;
+}
+
+.cs-main-container {
+  border-radius: 10px;
+
+}
+
+.cs-message__content {
+  background-color:  #faaca8 !important;
+}
+.cs-main-container .cs-chat-container  {
+  animation: fade 1s ease 1.5s both !important;
+  z-index: 20 !important;
+  text-align: right !important;
+  flex: 1 0 20vw !important;
+  width: 700px !important;
+  height: 600px !important;
+  margin-top: auto !important;
+  text-shadow: 1px 2px 0px rgba(#f43b47, 0.4), 3px 2px 0px rgba(#f43b47, 0.4), 2px 3px 0px rgba(#f43b47, 0.4) !important;
+  position: relative !important;
+}
+.cs-message-input__content-editor-wrapper{
+  background-color:  #faaca8 !important;
+}
+.cs-message-input__content-editor{
+  background-color:  #faaca8 !important;
+  text-align: left !important;
+
+}
+.cs-message__html-content {
+  text-align: left !important;
+}
